@@ -1,0 +1,39 @@
+* ,
+html {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    background-color: white;
+}
+.container-navbar {
+    position: fixed;
+    background-color: antiquewhite;
+    display: flex;
+    padding: 0 34% 0 0;
+}
+.container-logo {
+    margin: 0 10px 0 10px;
+}
+.img-logo {
+    height: 70px;
+}
+.container-home {
+    margin: 0 10px 0 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-p-nav {
+    margin: 0 100px 0 417px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-content {
+
+}
+.container-p-content {
+    padding-top: 100px;
+    text-align: center;
+} 
