@@ -25,7 +25,7 @@ html {
     justify-content: center;
 }
 .container-p-nav {
-    margin: 0 100px 0 417px ;
+    margin: 0 45px 0 360px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,4 +36,20 @@ html {
 .container-p-content {
     padding-top: 100px;
     text-align: center;
+}
+.container-poto-geser {
+    margin: 20px 0 0 0;
 } 
+.poto-geser {
+    height: 382px;
+}
+.container-navbar-2 {
+    background-color: black;
+}
+.container-ul {
+    background-color: aqua;
+}
+.container-li {
+    background-color: aliceblue;
+    border: 1px solid black;
+}
