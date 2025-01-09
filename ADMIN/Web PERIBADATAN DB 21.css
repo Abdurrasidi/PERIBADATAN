@@ -1,0 +1,66 @@
+ img {
+            display: block;
+            margin: 13% auto 0px;
+            width: 150px;
+        }
+
+        button {
+            text-align: center;
+            margin: 0% 570px;
+            width: 200px;
+            right: 100px;
+        }
+
+        body {
+            background: fixed;
+            background-color: rgb(209, 209, 209);
+            
+        }
+
+        input {
+            align-items: center;
+            width: 250px;
+            right: 300px;
+        }
+
+        .P1 {
+            margin: 0% 15% 1%;
+            margin-top: 0%;
+            font-size: 15px;
+            font-style: normal;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+                        
+        }
+
+        .P2 {
+            margin: 0% 15% 1%;
+            font-size: 15px;
+            font-style: normal;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .P4 {
+            align-items: center;
+            justify-content: center;
+            margin: 0% 15% 1%;
+            border: 5px 5px;
+            background: fixed black;
+            background-color: white;
+            border-radius: 5px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: normal;
+            cursor: pointer;
+
+        }
+
+        .P5 {
+            clear: both;
+        }
+
+        .link {
+            text-decoration: none;
+        }
