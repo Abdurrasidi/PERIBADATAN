@@ -31,6 +31,9 @@ html {
     align-items: center;
     justify-content: center;
 }
+#menu {
+    display: none;
+}
 .container-p-content {
     padding-top: 100px;
     text-align: center;
