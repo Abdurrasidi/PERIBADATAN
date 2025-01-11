@@ -10,7 +10,8 @@ html {
     position: fixed;
     background-color: antiquewhite;
     display: flex;
-    padding: 0 34% 0 0;
+    height: 70px;
+    width: 100%;
 }
 .container-logo {
     margin: 0 10px 0 10px;
@@ -44,9 +45,20 @@ html {
     background-color: black;
 }
 .container-ul {
-    background-color: aqua;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-li {
     background-color: aliceblue;
     border: 1px solid black;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+.a-navbar {
+    color: black;
+    text-decoration: none;
 }
