@@ -3,7 +3,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
             var input = document.getElementById("input").value;
             var PW = "PERIB OPMAZ";
             if (input === PW) {
-                window.location.href = "HALAMAN KE-2.html";
+                window.location.href = "ADMIN.html";
             } else {
                 alert("Password salah");
             }

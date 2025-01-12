@@ -3,8 +3,11 @@ html {
     padding: 0;
     margin: 0;
 }
+body {
+    background-color: antiquewhite;
+}
 .container {
-    background-color: white;
+    background-color: antiquewhite;
 }
 .container-navbar {
     position: fixed;
@@ -25,14 +28,51 @@ html {
     align-items: center;
     justify-content: center;
 }
+.container-li-home {
+    list-style: none;
+}
+.a-home {
+    text-decoration: none;
+    color: black;
+}
 .container-p-nav {
-    margin: 0 45px 0 360px;
+    margin: 0 45px 0 357px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.container-logo-menu {
+    margin: 15px 0 0 350px;
+}
+.logo-menu {
+    height: 30px;
+}
 #menu {
     display: none;
+    position: fixed;
+    background-color: rgb(253, 229, 198);
+    height: 100%;
+    width: 300px;
+}
+.menu {
+    margin: 30px 0 5px 110px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a-logo-menu {
+    margin: 0 0 0 65px;
+}
+.a-menu {
+    height: 150px;
+}
+.nav-li {
+    background-color: white;
+    list-style-type: none;
+}
+.admin {
+    margin: 0 0 0 110px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
 }
 .container-p-content {
     padding-top: 100px;
@@ -42,21 +82,19 @@ html {
     margin: 20px 0 0 0;
 } 
 .poto-geser {
-    height: 382px;
+    height: 378px;
 }
 .container-navbar-2 {
     background-color: black;
 }
 .container-ul {
     background-color: antiquewhite;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 .container-li {
-    background-color: aliceblue;
-    border: 1px solid black;
     list-style-type: none;
     margin: 5px;
     padding: 5px;
