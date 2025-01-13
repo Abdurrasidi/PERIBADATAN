@@ -36,7 +36,7 @@ body {
     color: black;
 }
 .container-p-nav {
-    margin: 0 45px 0 357px;
+    margin: 0 45px 0 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,4 +102,28 @@ body {
 .a-navbar {
     color: black;
     text-decoration: none;
+}
+.container-poto-1 {
+    display: flex;
+}
+.image-upload {
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.image-upload-1 {
+    margin: 30px 10px 5px 20px;
+}
+.deskripsi-poto {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin: 2px 0 0 20px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+}
+.image-upload-2 {
+    margin: 30px 10px 5px 20px;
 }
