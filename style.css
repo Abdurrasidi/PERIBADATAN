@@ -84,6 +84,7 @@ body {
     list-style-type: none;
 }
 .admin {
+    color: black;
     margin: 0 0 0 110px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
