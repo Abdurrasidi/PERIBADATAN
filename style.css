@@ -46,6 +46,7 @@ body {
 }
 .logo-menu {
     height: 30px;
+    cursor: pointer;
 }
 #menu {
     display: none;
@@ -57,6 +58,13 @@ body {
 .menu {
     margin: 30px 0 5px 110px;
     font-family: 'Times New Roman', Times, serif;
+}
+.container-close {
+    margin: 0 0 0 240px;
+}
+.close {
+    height: 60px;
+    cursor: pointer;
 }
 .a-logo-menu {
     margin: 0 0 0 65px;
