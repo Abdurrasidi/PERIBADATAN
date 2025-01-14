@@ -90,6 +90,56 @@ body {
     font-size: 20px;
     text-decoration: none;
 }
-.container-konten {
+.container-p-content {
+    padding-top: 100px;
+    text-align: center;
+}
+.container-poto-geser {
+    margin: 20px 0 0 0;
+} 
+.poto-geser {
+    height: 380px;
+}
+.container-navbar-2 {
     background-color: black;
+}
+.container-ul {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container-li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+}
+.a-navbar {
+    color: black;
+    text-decoration: none;
+}
+.container-poto-1 {
+    display: flex;
+}
+.image-upload {
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.image-upload-1 {
+    margin: 30px 10px 5px 20px;
+}
+.deskripsi-poto {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin: 2px 0 0 20px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+}
+.image-upload-2 {
+    margin: 30px 10px 5px 20px;
 }
