@@ -17,3 +17,12 @@ closeGambar.addEventListener('click',
     function() {
         tampilan.style.display = 'none';
     });
+
+// Optional: Adjust scroll speed dynamically
+document.querySelector('.carousel-track').addEventListener('mouseenter', function () {
+    this.style.animationPlayState = 'paused';
+  });
+
+  document.querySelector('.carousel-track').addEventListener('mouseleave', function () {
+    this.style.animationPlayState = 'running';
+  });

@@ -15,6 +15,7 @@ body {
     display: flex;
     height: 70px;
     width: 100%;
+    z-index: 1000;
 }
 .container-logo {
     margin: 0 10px 0 10px;
@@ -59,6 +60,7 @@ body {
     height: 100%;
     width: 300px;
     margin: 0 0 0 1050px;
+    z-index: 1000;
 }
 .menu {
     margin: 30px 0 5px 110px;
@@ -95,12 +97,6 @@ body {
 .container-p-content {
     padding-top: 100px;
     text-align: center;
-}
-.container-poto-geser {
-    margin: 20px 0 0 0;
-} 
-.poto-geser {
-    height: 380px;
 }
 .container-navbar-2 {
     background-color: black;
@@ -148,4 +144,52 @@ body {
 }
 .image-upload-2 {
     margin: 30px 10px 5px 20px;
+}
+.carousel {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel img {
+    width: 700px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
+.carousel-track {
+    margin-top: 90px;
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+.carousel-track:hover {
+    animation-play-state: paused;
+}
+
+.carousel-track > * {
+    flex-shrink: 0;
+}
+
+  /* Duplicate track for smooth looping */
+.carousel-track::after {
+    content: '';
+    display: flex;
+    width: 100%;
 }
