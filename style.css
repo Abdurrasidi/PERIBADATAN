@@ -132,6 +132,9 @@ body {
 .image-upload-1 {
     margin: 30px 10px 5px 20px;
 }
+.image-upload:hover {
+    background-color: aliceblue;
+}
 .deskripsi-poto {
     background-color: white;
     color: black;
@@ -156,8 +159,8 @@ body {
 }
 
 .carousel img {
-    width: 700px;
-    height: 250px;
+    width: 1300px;
+    height: 100%;
     object-fit: cover;
     margin: 0 10px;
     border-radius: 8px;
@@ -166,7 +169,7 @@ body {
 
 @keyframes scroll {
     0% {
-      transform: translateX(0);
+      transform: translateX(0%);
     }
     100% {
       transform: translateX(-100%);
@@ -174,9 +177,9 @@ body {
 }
 
 .carousel-track {
-    margin-top: 90px;
+    margin-top: 60px;
     display: flex;
-    animation: scroll 20s linear infinite;
+    animation: scroll 25s linear infinite;
 }
 
 .carousel-track:hover {
@@ -192,4 +195,16 @@ body {
     content: '';
     display: flex;
     width: 100%;
+}
+.footer {
+    background-color: black;
+}
+.container-footer {
+    margin: 30px 0 0 0;
+    background-color: white;
+    height: 500px;
+}
+.copyright {
+    margin-top: 400px;
+    color: black;
 }
