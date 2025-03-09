@@ -5,7 +5,6 @@ document.getElementById('menu');
 
 menuGambar.addEventListener('click',
     function() {
-        tampilan.classList.add('show');
         tampilan.style.display = 'block';
     });
 
@@ -16,10 +15,7 @@ document.getElementById('menu');
     
 closeGambar.addEventListener('click',
     function() {
-        tampilan.classList.remove('show');
-        setTimeout(() => {
-            tampilan.style.display = 'none';
-        }, 1000); // Match the transition duration
+        tampilan.style.display = 'none';
     });
 
 // Optional: Adjust scroll speed dynamically
