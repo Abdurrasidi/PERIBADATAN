@@ -120,6 +120,21 @@ body {
     padding-top: 100px;
     text-align: center;
 }
+.container-struktural {
+    background-color: aliceblue;
+}
+.struktural {
+    background-color: aliceblue;
+}
+.v-struktural {
+    background-color: green;
+}
+.f-struktural {
+    background-color: black;
+}
+.img-struktural {
+    width: 30%;
+}
 
 /* FOOTER */
 
