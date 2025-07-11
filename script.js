@@ -5,9 +5,11 @@ document.getElementById('menu');
 
 menuGambar.addEventListener('click',
     function() {
-        tampilan.classList.add('show');
-        tampilan.style.display = 'block';
-    });
+    tampilan.classList.add('show');
+    setTimeout(() => {
+        tampilan.style.display = 'block'
+    },)
+});
 
 const closeGambar =
 document.getElementById('close');
@@ -30,3 +32,11 @@ document.querySelector('.carousel-track').addEventListener('mouseenter', functio
   document.querySelector('.carousel-track').addEventListener('mouseleave', function () {
     this.style.animationPlayState = 'running';
   });
+
+document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('contextmenu',
+        function(event) {
+            event.preventDefault();
+        }
+    )
+})

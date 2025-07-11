@@ -26,3 +26,11 @@ document.querySelector('.carousel-track').addEventListener('mouseenter', functio
   document.querySelector('.carousel-track').addEventListener('mouseleave', function () {
     this.style.animationPlayState = 'running';
   });
+
+document.querySelectorAll('img').forEach(img => {
+    img.addEventListener('contextmenu',
+        function(event) {
+            event.preventDefault();
+        }
+    )
+})

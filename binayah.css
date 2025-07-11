@@ -33,6 +33,7 @@ body {
 .container-p-nav {
     display: flex;
     flex: 1;
+    font-size: calc(5px + 1.5vw);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -63,7 +64,7 @@ body {
     height: 100%;
     right: 0;
     transition: transform 0.5s ease, opacity 0.5s ease;
-    width: 250px;
+    width:calc(100px + 15vw);
     z-index: 1000;
     transform: translateX(100%);
     opacity: 0;
@@ -76,6 +77,7 @@ body {
 .menu {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-size: calc(12px + 1vw);
 }
 .container-close {
     margin: 10px 0 0 5px;
@@ -89,10 +91,12 @@ body {
     border-radius: 100px;
 }
 .a-logo-menu {
-    margin: 0 0 0 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .a-menu {
-    height: 150px;
+    height: calc(50px + 6vw);
 }
 .nav-li {
     background-color: white;
@@ -110,30 +114,32 @@ body {
 .admin {
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: calc(10px + 1vw);
     text-decoration: none;
 }
 .DB {
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: calc(10px + 1vw);
     text-decoration: none;
 }
 .h1-konten {
     font-family: 'Times New Roman', Times, serif;
-    padding: 120px 0 0 0;
+    padding: 100px 0 10px 0;
+    font-size: 1.5vw;
     text-align: center;
     border-bottom: 1px solid black;
 }
-.container-poto-konten {
+.container-img-konten {
     float: left;
 }
-.poto-konten {
+.img-konten {
     max-width: 100%;
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-left: 10px;
-    height: 400px;
+    margin-top: 5px;
+    height: 30vw;
     border: 5px solid black;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -141,13 +147,14 @@ body {
 .container-deskripsi {
     color: black;
     padding: 1px;
-    margin: 10px 0 0 0;
+    margin: 5px 0 0 0;
 }
 .p2 {
     margin: 10px 20px 0 30px;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 1.4vw;
+    line-height: 1.5;
     text-align: justify;
 }
 
