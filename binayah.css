@@ -152,9 +152,9 @@ body {
 .p2 {
     font-family: 'Times New Roman', Times, serif;
     margin: 10px 20px 0 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     word-spacing: 2px;
-    font-size: calc(1px + 2vw);
+    font-size: calc(3px + 1.5vw);
     line-height: 1.5;
     text-align: justify;
 }
