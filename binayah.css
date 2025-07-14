@@ -136,7 +136,7 @@ body {
     margin-left: 10px;
     margin-top: 5px;
     height: 30vw;
-    border: 5px solid black;
+    border: calc(2px + 0.5vw) solid black;
     border-radius: 5px;
     margin-bottom: 10px;
 }
