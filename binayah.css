@@ -150,10 +150,11 @@ body {
     margin: 5px 0 0 0;
 }
 .p2 {
+    font-family: 'Times New Roman', Times, serif;
     margin: 10px 20px 0 30px;
     letter-spacing: 2px;
     word-spacing: 2px;
-    font-size: 1.4vw;
+    font-size: calc(1px + 2vw);
     line-height: 1.5;
     text-align: justify;
 }
