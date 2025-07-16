@@ -10,29 +10,27 @@ body {
     background-color: antiquewhite;
 }
 .container-navbar {
-    border-bottom: 1px solid rgb(250, 232, 208);
+    border-bottom: 1px solid rgb(0, 0, 0);
     position: fixed;
     background-color: rgb(253, 229, 198);
     display: flex;
-    height: 70px;
+    height: calc(50px + 2vw);
     width: 100%;
-    flex-wrap: wrap;
     z-index: 1000;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
 }
 .container-logo {
     display: flex;
-    margin: 0;
     align-items: center;
 }
 .img-logo {
-    height: 70px;
+    height: calc(30px + 4vw);
 }
 .container-p-nav {
     display: flex;
     flex: 1;
+    font-size: calc(5px + 1.5vw);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -48,13 +46,12 @@ body {
 }
 .logo-menu {
     border-radius: 10px;
-    height: 50px;
+    height: calc(25px + 3vw);
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 0px;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 #menu {
     display: none;
@@ -63,7 +60,7 @@ body {
     height: 100%;
     right: 0;
     transition: transform 0.5s ease, opacity 0.5s ease;
-    width: 250px;
+    width:calc(100px + 15vw);
     z-index: 1000;
     transform: translateX(100%);
     opacity: 0;
@@ -76,6 +73,7 @@ body {
 .menu {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-size: calc(12px + 1vw);
 }
 .container-close {
     margin: 10px 0 0 5px;
@@ -89,10 +87,12 @@ body {
     border-radius: 100px;
 }
 .a-logo-menu {
-    margin: 0 0 0 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .a-menu {
-    height: 150px;
+    height: calc(50px + 6vw);
 }
 .nav-li {
     background-color: white;
@@ -110,36 +110,92 @@ body {
 .admin {
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: calc(10px + 1vw);
     text-decoration: none;
 }
 .DB {
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: calc(10px + 1vw);
     text-decoration: none;
-}
-.container-konten {
-    display: flex;
 }
 .h1-konten {
     font-family: 'Times New Roman', Times, serif;
-    padding: 120px 0 0 0;
+    padding: calc(80px + 1vw) 0 10px 0;
+    font-size: 1.5vw;
     text-align: center;
     border-bottom: 1px solid black;
 }
-.poto-konten {
-    height: 400px;
-    margin: 60px 0 0 50px;
-    border: 5px solid black;
+.container-konten-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-konten {
+    margin: calc(5px + 1vw);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(50% + 10px);
+    float: left;
+    height: 28vw;
+    border: calc(2px + 0.5vw) solid black;
     border-radius: 5px;
 }
-.container-deskripsi {
-    background-color: black;
-    color: white;
-    margin: 60px 0 0 10px;
+.konten p {
+    flex: 1;
 }
-.p1 {
-    padding-left: 30px;
+.container-deskripsi {
+    color: black;
+    padding: 1px;
+    margin: 5px 0 0 0;
+}
+.p2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 20px 0 20px;
+    word-spacing: 0.5px;
+    font-size: calc(5px + 1.5vw);
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    max-width: 100%;
+}
+
+.ul-1 {
+    margin: 60px 10px 0 30px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
     font-size: 20px;
+}
+
+.li-1 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: black;
+}
+
+.li-2 {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-size: 20px;
+    color: black;
+}
+.footer {
+    background-color: black;
+}
+.container-footer {
+    margin: 30px 0 0 0;
+    padding-bottom: 30px;
+    background-color: white;
+    height: calc(400px + 3vw);
+}
+.copyright {
+    font-size: calc(5px + 1vw);
+    margin-top: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    line-height: 1.5;
+    color: black;
 }

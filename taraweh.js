@@ -22,15 +22,6 @@ closeGambar.addEventListener('click',
         }, 1000); // Match the transition duration
     });
 
-// Optional: Adjust scroll speed dynamically
-document.querySelector('.carousel-track').addEventListener('mouseenter', function () {
-    this.style.animationPlayState = 'paused';
-  });
-
-  document.querySelector('.carousel-track').addEventListener('mouseleave', function () {
-    this.style.animationPlayState = 'running';
-  });
-
 document.querySelectorAll('img').forEach(img => {
     img.addEventListener('contextmenu',
         function(event) {
