@@ -1,0 +1,46 @@
+{
+    "deskripsi" : [
+        {
+            "kategori" : "BINAYAH",
+            "potoutama" : "poto awal.jpg",
+            "deskripsiutama" : "BINAYAH",
+            "poto isian" : "",
+            "deskripsi isian" : ""
+        },
+        {
+            "kategori" : "TARAWEH",
+            "potoutama" : "tampilan poto.JPG",
+            "deskripsiutama" : "TARAWIH DAN KHATAMAN AL-QUR'AN",
+            "poto isian" : "",
+            "deskripsi isian" : ""
+        },
+        {
+            "kategori" : "MASJID INDAH",
+            "potoutama" : "tampilan poto.JPG",
+            "deskripsiutama" : "MASJID INDAH",
+            "poto isian" : "",
+            "deskripsi isian" : ""
+        },
+        {
+            "kategori" : "GEMA AL-QUR'AN",
+            "potoutama" : "tampilan poto.JPG",
+            "deskripsiutama" : "GEMA AL-QUR'AN",
+            "poto isian" : "",
+            "deskripsi isian" : ""
+        },
+        {
+            "kategori" : "PIALA OPMAZ",
+            "potoutama" : "tampilan poto.JPG",
+            "deskripsiutama" : "PIALA OPMAZ",
+            "poto isian" : "",
+            "deskripsi isian" : ""
+        },
+        {
+            "kategori" : "SIMA'AN AKBAR",
+            "potoutama" : "tampilan poto.JPG",
+            "deskripsiutama" : "SIMA'AN AKBAR",
+            "poto isian" : "",
+            "deskripsi isian" : ""
+        }
+    ]
+}
