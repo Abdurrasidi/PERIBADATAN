@@ -16,11 +16,14 @@ $(document).ready(function() {
 
   $('#search-input').on('keypress', function(e) {
     if (e.which === 13) { // Enter key
-      var searchValue = $(this).val().toLowerCase();
+      var searchValue = $(this).val().toLowerCase().replace(/['"]/g, '');
       $.getJSON('data.json', function(data) {
         let menu = data.deskripsi;
         let filtered = menu.filter(function(item) {
-          return item.deskripsiutama.toLowerCase().includes(searchValue) || item.kategori.toLowerCase().includes(searchValue);
+          // Hilangkan kutip dari data sebelum dibandingkan
+          let deskripsi = item.deskripsiutama.toLowerCase().replace(/['"]/g, '');
+          let kategori = item.kategori.toLowerCase().replace(/['"]/g, '');
+          return deskripsi.includes(searchValue) || kategori.includes(searchValue);
         });
         if (filtered.length > 0) {
           $('#container-poto-1').html('');
