@@ -124,14 +124,45 @@ body {
     text-align: center;
 }
 .container-navbar-2 {
-    background-color: black;
+    background-color: antiquewhite;
+    display: flex;
 }
 .container-icon-navbar {
     background-color: antiquewhite;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin-top: 40px;
+}
+.container-search {
+    width: calc(100px + 10vw);
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    align-items: right;
+    margin-right: 10px;
+}
+.search {
+    border: 1px solid black;
+    width: calc(100px + 10vw);
+    height: calc(10px + 1vw);
+    margin-top: 40px;
+    padding: 5px;
+    font-size: calc(10px + 0.7vw);
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.refresh {
+    cursor: pointer;
+    height: calc(13px + 1vw);
+    width: calc(15px + 1vw);
+    margin-top: 45px;
+    margin-right: 5px;
 }
 .a-navbar {
     color: black;
