@@ -3,7 +3,10 @@ $(document).ready(function() {
   function renderAllData(menu) {
     $('#container-poto-1').html('');
     $.each(menu, function (i, data) {
-      $('#container-poto-1').append('<article class="article"><div class="image-upload-1"><a href="'+ data.kategori.toLowerCase() +'.html"><img src="poto upload/'+ data.kategori +'/'+ data.potoutama +'" class="image-upload" /></a></div><a href="'+ data.kategori.toLowerCase() +'.html" class="deskripsi"><div class="deskripsi-poto"><p>'+ data.deskripsiutama +'</p></div></a></article>');
+      // Hanya tampilkan jika deskripsiutama dan kategori ada valuenya
+      if (data && data.deskripsiutama && data.kategori) {
+        $('#container-poto-1').append('<article class="article"><div class="image-upload-1"><a href="'+ data.kategori.toLowerCase() +'.html"><img src="poto upload/'+ data.kategori +'/'+ data.potoutama +'" class="image-upload" /></a></div><a href="'+ data.kategori.toLowerCase() +'.html" class="deskripsi"><div class="deskripsi-poto"><p>'+ data.deskripsiutama +'</p></div></a></article>');
+      }
     });
   }
   $.getJSON("data.json", function (data) {
@@ -20,7 +23,8 @@ $(document).ready(function() {
       $.getJSON('data.json', function(data) {
         let menu = data.deskripsi;
         let filtered = menu.filter(function(item) {
-          // Hilangkan kutip dari data sebelum dibandingkan
+          // Hanya cari jika deskripsiutama dan kategori ada valuenya
+          if (!item || !item.deskripsiutama || !item.kategori) return false;
           let deskripsi = item.deskripsiutama.toLowerCase().replace(/['"]/g, '');
           let kategori = item.kategori.toLowerCase().replace(/['"]/g, '');
           return deskripsi.includes(searchValue) || kategori.includes(searchValue);

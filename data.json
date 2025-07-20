@@ -108,6 +108,104 @@
                 }
             ],
                                                 "KOMENTAR" : "DARMA BAKTI KE-21"
+        },
+        {
+                                                "KOMENTAR" : "DARMA BAKTI KE-22",
+            "kategori" : "",
+            "potoutama" : "",
+            "deskripsiutama" : "",
+            "potoisian" : [
+                {
+                    "poto1" : "",
+                    "poto2" : ""
+                }],
+            "deskripsiisian" : [
+                {
+                    "paragraf1": "",
+                    "paragraf2": ""
+                }
+            ]
+        },
+        {
+            "kategori" : "",
+            "potoutama" : "",
+            "deskripsiutama" : "",
+            "potoisian" : [
+                {
+                    "poto1" : "",
+                    "poto2" : ""
+                }],
+            "deskripsiisian" : [
+                {
+                    "paragraf1": "",
+                    "paragraf2": ""
+                }
+            ]
+        },
+        {
+            "kategori" : "",
+            "potoutama" : "",
+            "deskripsiutama" : "",
+            "potoisian" : [
+                {
+                    "poto1" : "",
+                    "poto2" : ""
+                }],
+            "deskripsiisian" : [
+                {
+                    "paragraf1": "",
+                    "paragraf2": ""
+                }
+            ]
+        },
+        {
+            "kategori" : "",
+            "potoutama" : "",
+            "deskripsiutama" : "",
+            "potoisian" : [
+                {
+                    "poto1" : "",
+                    "poto2" : ""
+                }],
+            "deskripsiisian" : [
+                {
+                    "paragraf1": "",
+                    "paragraf2": ""
+                }
+            ]
+        },
+        {
+            "kategori" : "",
+            "potoutama" : "",
+            "deskripsiutama" : "",
+            "potoisian" : [
+                {
+                    "poto1" : "",
+                    "poto2" : ""
+                }],
+            "deskripsiisian" : [
+                {
+                    "paragraf1": "",
+                    "paragraf2": ""
+                }
+            ]
+        },
+        {
+            "kategori" : "",
+            "potoutama" : "",
+            "deskripsiutama" : "",
+            "potoisian" : [
+                {
+                    "poto1" : "",
+                    "poto2" : ""
+                }],
+            "deskripsiisian" : [
+                {
+                    "paragraf1": "",
+                    "paragraf2": ""
+                }
+            ],
+                                                "KOMENTAR" : "DARMA BAKTI KE-22"
         }
     ]
 }
